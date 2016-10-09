@@ -11,9 +11,14 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             string number = "sanjay";
-            unsafe
+            //unsafe
+            //{
+            //    string* p = &number;
+            //}
+            Console.WriteLine("CountDown Stated...");
+            for (int i= 0; i<10;i++)
             {
-                string* p = &number;
+                Console.WriteLine(i);
             }
 
         }
